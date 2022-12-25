@@ -14,6 +14,7 @@ module.exports = {
         mainBlueLight : '#D3DDFF',
         mainBlueLighter : '#E9EEFF',
         mainButton : '#F85A47',
+        mainButtonHover : '#ff4b37',
         cta : '#FF9900'
       }
     },

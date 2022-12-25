@@ -39,3 +39,9 @@
     color: gray;
 
   }
+  .active {
+    color: #F85A47;
+    padding-bottom: 6px;
+    text-decoration: overline;
+    font-weight: 800;
+  }
