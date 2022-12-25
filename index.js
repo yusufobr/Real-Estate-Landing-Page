@@ -5,13 +5,63 @@ imgOne.addEventListener('click', () => {
     imgOne.classList.toggle('hidden')
     imgTwo.classList.toggle('hidden')
 })
-
 imgTwo.addEventListener('click', () => {
     imgOne.classList.toggle('hidden')
     imgTwo.classList.toggle('hidden')
 })
-
 setTimeout(()=>{
     imgOne.classList.toggle('hidden')
     imgTwo.classList.toggle('hidden')
 }, 5000)
+
+
+const featureOne = document.getElementById('featureOne')
+const featureTwo = document.getElementById('featureTwo')
+const featureThree = document.getElementById('featureThree')
+const featureFour = document.getElementById('featureFour')
+
+const featureOneClick = document.getElementById('featureOneClick')
+const featureTwoClick = document.getElementById('featureTwoClick')
+const featureThreeClick = document.getElementById('featureThreeClick')
+const featureFourClick = document.getElementById('featureFourClick')
+
+featureOneClick.addEventListener('click', ()=> {
+    featureOne.classList.remove('hidden')
+    featureTwo.classList.add('hidden')
+    featureThree.classList.add('hidden')
+    featureFour.classList.add('hidden')
+    featureOneClick.classList.add('active')
+    featureTwoClick.classList.remove('active')
+    featureThreeClick.classList.remove('active')
+    featureFourClick.classList.remove('active')
+})
+featureTwoClick.addEventListener('click', ()=> {
+    featureOne.classList.add('hidden')
+    featureTwo.classList.remove('hidden')
+    featureThree.classList.add('hidden')
+    featureFour.classList.add('hidden')
+    featureOneClick.classList.remove('active')
+    featureTwoClick.classList.add('active')
+    featureThreeClick.classList.remove('active')
+    featureFourClick.classList.remove('active')
+})
+featureThreeClick.addEventListener('click', ()=> {
+    featureOne.classList.add('hidden')
+    featureTwo.classList.add('hidden')
+    featureThree.classList.remove('hidden')
+    featureFour.classList.add('hidden')
+    featureOneClick.classList.remove('active')
+    featureTwoClick.classList.remove('active')
+    featureThreeClick.classList.add('active')
+    featureFourClick.classList.remove('active')
+})
+featureFourClick.addEventListener('click', ()=> {
+    featureOne.classList.add('hidden')
+    featureTwo.classList.add('hidden')
+    featureThree.classList.add('hidden')
+    featureFour.classList.remove('hidden')
+    featureOneClick.classList.remove('active')
+    featureTwoClick.classList.remove('active')
+    featureThreeClick.classList.remove('active')
+    featureFourClick.classList.add('active')
+})
