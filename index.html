@@ -239,17 +239,68 @@
             </li>
           </ul>
           <div id="featureOne" class="flex flex-row space-x-7 justify-between">
-            <div><img src="/img/Image 03.jpg" /></div>
-            <div><img src="/img/Image 02.jpg" /></div>
-            <div><img src="/img/Image 01.jpg" /></div>
+            <div class="relative">
+              <img src="/img/Image 03.jpg" />
+              <div class="absolute flex flex-row space-x-1 top-2 left-2">
+                <div class="p-[3px] border bg-[rgba(0,0,0,0.4)] rounded-md">
+                  <span class="text-white text-sm">Featured</span>
+                </div>
+                <div class="p-1 border bg-[rgba(0,0,0,0.4)] rounded-md">
+                  <span class="text-white text-sm">3D</span>
+                </div>
+              </div>
+            </div>
+            <div class="relative">
+              <img src="/img/Image 02.jpg" />
+              <div class="absolute flex flex-row space-x-1 top-2 left-2">
+                <div class="p-[3px] border bg-[rgba(0,0,0,0.4)] rounded-md">
+                  <span class="text-white text-sm">Featured</span>
+                </div>
+                <div class="p-1 border bg-[rgba(0,0,0,0.4)] rounded-md">
+                  <span class="text-white text-sm">3D</span>
+                </div>
+              </div>
+            </div>
+            <div class="relative">
+              <img src="/img/Image 01.jpg" />
+              <div class="absolute flex flex-row space-x-1 top-2 left-2">
+                <div class="p-[3px] border bg-[rgba(0,0,0,0.4)] rounded-md">
+                  <span class="text-white text-sm">Featured</span>
+                </div>
+              </div>
+            </div>
           </div>
           <div
             id="featureTwo"
             class="flex flex-row space-x-7 justify-between hidden"
           >
-            <div><img src="/img/Image 02.jpg" /></div>
-            <div><img src="/img/Image 01.jpg" /></div>
-            <div><img src="/img/Image 03.jpg" /></div>
+            <div class="relative">
+              <img src="/img/Image 02.jpg" />
+              <div class="absolute flex flex-row space-x-1 top-2 left-2">
+                <div class="p-[3px] border bg-[rgba(0,0,0,0.4)] rounded-md">
+                  <span class="text-white text-sm">Featured</span>
+                </div>
+              </div>
+            </div>
+            <div class="relative">
+              <img src="/img/Image 01.jpg" />
+              <div class="absolute flex flex-row space-x-1 top-2 left-2">
+                <div class="p-[3px] border bg-[rgba(0,0,0,0.4)] rounded-md">
+                  <span class="text-white text-sm">Featured</span>
+                </div>
+                <div class="p-1 border bg-[rgba(0,0,0,0.4)] rounded-md">
+                  <span class="text-white text-sm">3D</span>
+                </div>
+              </div>
+            </div>
+            <div class="relative">
+              <img src="/img/Image 03.jpg" />
+              <div class="absolute flex flex-row space-x-1 top-2 left-2">
+                <div class="p-[3px] border bg-[rgba(0,0,0,0.4)] rounded-md">
+                  <span class="text-white text-sm">Featured</span>
+                </div>
+              </div>
+            </div>
           </div>
           <div
             id="featureThree"
@@ -266,6 +317,63 @@
             <div><img src="/img/Image 01.jpg" /></div>
             <div><img src="/img/Image 01.jpg" /></div>
             <div><img src="/img/Image 01.jpg" /></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services">
+      <div
+        class="container flex flex-col mx-auto items-center my-20 space-y-16"
+      >
+        <h3 class="text-3xl font-semibold">Featured Listing of the Week</h3>
+        <div class="flex flex-row space-x-8 bg-mainBlueLighter p-6">
+          <div class="relative">
+            <img class="w-[90%] mx-auto" src="/img/Image.png" alt="Image" />
+            <img
+              class="absolute w-[75%] top-[43%] left-[13%] shadow-[0px_40px_60px_0px_rgba(0,0,0,0.1)]"
+              src="/img/Image1.png"
+              alt="Image"
+            />
+          </div>
+          <div class="flex flex-col space-y-8 p-8 w-[50%]">
+            <span class="text-2xl font-bold"
+              >The and collecting for the motionless difficulty son.</span
+            >
+            <p>
+              Conveying or northward offending admitting perfectly my. Colonel
+              gravity get thought fat smiling add but difficult situations.
+            </p>
+            <div class="grid grid-cols-3 gap-4 capitalize">
+              <div>
+                <span class="text-l font-extrabold">Budget</span>
+                <p>Confidential</p>
+              </div>
+              <div>
+                <span class="text-l font-extrabold">Size</span>
+                <p>1200</p>
+              </div>
+              <div>
+                <span class="text-l font-extrabold">Type</span>
+                <p>Office</p>
+              </div>
+              <div>
+                <span class="text-l font-extrabold">Status</span>
+                <p>Done</p>
+              </div>
+              <div>
+                <span class="text-l font-extrabold">location</span>
+                <p>switzerland</p>
+              </div>
+              <div>
+                <span class="text-l font-extrabold">flat</span>
+                <p>8 room</p>
+              </div>
+            </div>
+            <button
+              class="px-8 py-2 bg-mainButton hover:bg-mainButtonHover rounded-sm font-semibold text-white"
+            >
+              Yes! I Want Book “Office Package”
+            </button>
           </div>
         </div>
       </div>

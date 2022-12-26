@@ -9,7 +9,7 @@ imgTwo.addEventListener('click', () => {
     imgOne.classList.toggle('hidden')
     imgTwo.classList.toggle('hidden')
 })
-setTimeout(()=>{
+setInterval(()=>{
     imgOne.classList.toggle('hidden')
     imgTwo.classList.toggle('hidden')
 }, 5000)
